@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.view_item_list{
+    font-size: 20px;
+    border-bottom: 1px solid #dbd3d3;
+    color: #d6d3d3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active{
+    font-weight: 600;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.view_card{
+    border-radius: 0;
+    background-color: #fff;
+    border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.view_card1{
+    border-radius: 0;
+    background-color: #ffff;
+    border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.view_card2{
+    border-radius: 25px;
+    background-color: #4722ad;
+    border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img_fluid1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.img_fluid_data{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.img_fluid2{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.card_profile{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 250px !important;
+    z-index: 1000;
+    display: none;
+    float: left;
+    width: 240px;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+
+.btn_primary{
+    border-radius: 2rem;
+    background-color: #d55151;
+    color: #fff !important;
+    font-weight: 600;
 }
